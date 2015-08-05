@@ -9,3 +9,4 @@ describe('String#title_case') do
   it("capitalizes the first letter of mulitple words") do
     expect(('new york').title_case()).to(eq('New York'))
   end
+end
